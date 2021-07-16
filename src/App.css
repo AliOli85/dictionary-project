@@ -1,4 +1,31 @@
 .App-footer {
   text-align: center;
   margin: 30px;
+  color: #f95a60;
+}
+
+.App-book {
+  max-width: 200px;
+  display: block;
+  margin: 20px auto;
+}
+
+.Dictionary {
+  text-align: center;
+}
+
+.Results {
+  color: grey;
+  max-width: 500px;
+  display: block;
+  margin: 10px auto;
+}
+
+.partOfSpeech {
+  color: #f95a60;
+}
+
+.searchWord {
+  color: black;
+  font-size: 48px;
 }
