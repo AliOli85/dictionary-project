@@ -1,23 +1,19 @@
+a {
+  color: #3bd0c2;
+}
+
 .App-footer {
-  text-align: center;
   margin: 30px;
   color: #f95a60;
 }
 
 .App-book {
   max-width: 200px;
-  display: block;
-  margin: 20px auto;
-}
-
-.Dictionary {
-  text-align: center;
+  margin: 20px 20px;
 }
 
 .Results {
   color: grey;
-  max-width: 500px;
-  display: block;
   margin: 10px auto;
 }
 
