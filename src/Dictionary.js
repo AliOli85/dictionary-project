@@ -3,6 +3,7 @@ import axios from "axios";
 import Results from "./Results";
 import Photos from "./Photos";
 import "./Dictionary.css";
+import { BsSearch } from "react-icons/bs";
 
 export default function Dictionary(props){
     let [keyword,setKeyword] = useState(props.defaultKeyword);
@@ -44,13 +45,14 @@ export default function Dictionary(props){
 
     if (loaded){
     return (
-        <div className="Dictionary">
+        <div className="Dictionary float-start">
             <section>
-            <h1>Type a word</h1>
+            <h1>Type a word...</h1>
             <form onSubmit={handleSubmit}>
                 <input type="search" onChange={handleKeywordChange} 
                 defaultValue={props.defaultKeyword}
                 />
+                <button><BsSearch /></button>
             </form>
             </section>
             <Results results={results} />

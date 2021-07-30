@@ -2,9 +2,34 @@ a {
   color: #3bd0c2;
 }
 
+main {
+  padding-left: 240px;
+}
+
+.App-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
 .App-footer {
-  margin: 30px;
+  display: block;
+  text-align: center;
   color: #f95a60;
+  margin: 20px 0;
+}
+
+.App-footer a.coder {
+  color: #f95a60;
+  text-decoration: none;
+}
+
+.App-footer a.coder:hover {
+  font-weight: bold;
+}
+
+.App-footer svg {
+  margin: 0 5px;
 }
 
 .App-book {
